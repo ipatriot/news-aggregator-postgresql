@@ -1,0 +1,13 @@
+</ol>
+  <form action="/submit_article" method="post">
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title" style="width: 100px;" required>
+
+    <label for="url">URL:</label>
+    <input type="url" id="url" name="url" style="width: 100px;" required>
+
+    <label for="description">Description:</label>
+    <input type="textarea" id="description" name="description" style="width: 100px;" pattern=".{20,}" required>
+
+    <input type="submit" style="margin-top: 15px; background: #61BCE8; border: 0; color: #FFF;">
+  </form>

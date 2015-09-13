@@ -1,0 +1,8 @@
+  <ol><% articles.each do |article| %>
+  <li><a href="<%= article["url"] %>"><%= article["title"] %></a>
+  <br />
+  <%= article["description"] %></li>
+  <% end %>
+</ol>
+
+  <a href="/articles/new">Submit a new article</a>
